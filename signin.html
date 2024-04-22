@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Sign In</h1>
+        <h1>Sign In</h1> 
+        <img src="flight.png" alt="Air Traffic Control" class="atc-image">
         <form id="signInForm">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
@@ -18,19 +23,7 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
             </div>
-            <div class="form-group">
-                <label for="aircraftNumber">Aircraft Number:</label>
-                <input type="text" id="aircraftNumber" name="aircraftNumber">
-            </div>
-            <div class="form-group">
-                <label for="airlineId">Airline ID:</label>
-                <input type="text" id="airlineId" name="airlineId">
-            </div>
-            <div class="form-group">
-                <label for="licenseNumber">License Number:</label>
-                <input type="text" id="licenseNumber" name="licenseNumber">
-            </div>
-            <button type="submit" class="btn">Sign In</button>
+            <button type="submit" class="btn">Sign In </button>
         </form>
         <p>Don't have an account? <a href="registration.html">Register here</a>.</p>
     </div>
