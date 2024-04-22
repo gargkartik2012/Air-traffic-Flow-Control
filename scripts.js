@@ -79,3 +79,5 @@ async function deleteFlight(flightId) {
 
 // Fetch flights when the page loads
 fetchFlights();
+
+
